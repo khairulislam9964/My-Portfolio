@@ -1,0 +1,49 @@
+*
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.colorful{
+    color: orangered;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left:3% ;
+}
+.half-width img{
+    width: 70%;
+}
+.hire-me-button{
+    background-color: rgb(245, 124, 124);
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-image:linear-gradient(rgb(245, 152, 118),tomato)
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+background-position: right;
+    background-repeat:no-repeat;
+}
+.Resume-button{
+    background-color: rgb(245, 124, 124);
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-image:linear-gradient(rgb(245, 152, 118),tomato)
+}
